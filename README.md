@@ -24,15 +24,16 @@ Alyra takes an algorithm — sorting, searching, graph traversal and more — an
 
 ## Highlights
 
-- 🎬 **Reel engine** — a custom rendering engine that turns algorithm execution into animated frames and video.
+- 🎬 **Canvas rendering engine** — timeline and line-by-line code tracing that turns algorithm execution into animated frames.
+- 📼 **Client-side MP4 export** — H.264 encoding with WebCodecs, no render server.
 - 🧑‍🏫 **Alyra Studio** — an in-browser editor (Monaco) to write, tweak and preview algorithms before rendering.
-- 🔐 **Authentication & cloud projects** — Firebase Auth and Firestore to save and sync each user's projects.
-- 💳 **Subscription plans** — free and paid tiers with feature gating.
+- 🔐 **Auth & cloud projects** — Firebase Auth (email + OAuth), role-based access and Firestore-synced projects.
+- 💳 **3 subscription plans** — with feature gating per plan.
 - 🌍 **Internationalization** — full EN / PT-BR interface.
 
 ## Tech stack
 
-`Next.js 16` · `React 19` · `TypeScript` · `Firebase (Auth, Firestore)` · `Tailwind CSS` · `Monaco Editor`
+`Next.js` · `React 19` · `TypeScript` · `Firebase (Auth, Firestore)` · `WebCodecs` · `Canvas` · `Tailwind CSS` · `Monaco Editor`
 
 ## Author
 
